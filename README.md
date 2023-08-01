@@ -1,5 +1,6 @@
 # ESP32-S3-Gateway
 
+## Hardware
 ●ESP32-S3 dual-core Xtensa 32-bit LX7 microprocessor, up to 240 MHz with 384KB ROM, 512KB SRAM. 2.4GHz WiFi and Bluetooth 5
 
 ●PSRAM: 8MB    FLASH: 4MB
@@ -24,6 +25,29 @@
 
 ![A01](https://user-images.githubusercontent.com/10337553/179404964-32a92022-a2cf-4ff0-b8ff-757f1f7446af.png)
 
+## Software
+All the examples are stored in .../examples folder. Please build it with **ESP-IDF 4.4.2**
+![f348cb5e-235e-468a-8372-5e6ca2c9965f](https://github.com/W00ng/ESP32-S3-HMI-V3/assets/10337553/a69f3fcd-1425-4838-94a4-f8502d2b7bf5)
+
+### Step 1: Enter the examples folder
+Open the terminal and go to any folder that stores examples (e.g. lvgl_demo):
+
+```bash
+cd ...\examples\lvgl_demo
+```
+
+### Step 2: Build the example
+
+```bash
+idf.py build
+```
+
+### Step 3: Flash and launch monitor
+Flash the program and launch IDF Monitor:
+
+```bash
+idf.py flash monitor
+```
 
 ## Support
 
